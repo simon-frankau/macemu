@@ -1,4 +1,4 @@
 make clean
 NO_CONFIGURE=1 ./autogen.sh
-./configure --enable-sdl-video --enable-sdl-audio --disable-vosf --disable-jit-compiler --with-x --with-gtk --with-mon
+./configure --enable-addressing=banks --with-gtk=no --with-esd=no
 make -j 32
